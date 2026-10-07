@@ -5,42 +5,25 @@
 - Backend: Node.js, Express
 - Authentication: JWT
 
-## Run Locally
+## Steps to Run Locally
 
-### 1. Install backend dependencies
 ```bash
+# Backend
 cd server
 npm install
-```
-
-### 2. Configure environment variables
-Create a `.env` file from the example file:
-
-```bash
 cp .env.example .env
-```
-
-### 3. Start the backend server
-```bash
 node server.js
-```
 
-### 4. Install frontend dependencies
-Open a new terminal window and run:
-```bash
+# Frontend
+cd ..
 cd client
 npm install
-```
-
-### 5. Start the frontend
-```bash
 npm run dev
 ```
 
 The website will be available in: http://localhost:5173
 
-## Demo Login
-Use the following credentials to access the app:
+Credentials for demonstration purposes:
 - Username: admin
 - Password: admin123
 
